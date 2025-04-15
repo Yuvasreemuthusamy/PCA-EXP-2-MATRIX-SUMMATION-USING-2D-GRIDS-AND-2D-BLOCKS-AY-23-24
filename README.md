@@ -1,9 +1,10 @@
 # PCA-EXP-2-Matrix-Summation-using-2D-Grids-and-2D-Blocks-AY-23-24
 
-<h3>ENTER YOUR NAME: YUVA SREE M </h3>
-<h3>ENTER YOUR REGISTER NO:212223230251 </h3>
-<h3>EX. NO:03</h3>
-<h3>DATE:15/04/25</h3>
+<h3>AIM:</h3>
+<h3>NAME: YUVA SREE M </h3>
+<h3>REGISTER NO: 212223230251 </h3>
+<h3>EX. NO: 02</h3>
+<h3>DATE</h3>
 <h1> <align=center> MATRIX SUMMATION WITH A 2D GRID AND 2D BLOCKS </h3>
 i.  Use the file sumMatrixOnGPU-2D-grid-2D-block.cu
 ii. Matrix summation with a 2D grid and 2D blocks. Adapt it to integer matrix addition. Find the best execution configuration. </h3>
@@ -35,11 +36,7 @@ Google Colab with NVCC Compiler
 
 ## PROGRAM:
 ```
-pip install nvcc4jupyter
-%load_ext nvcc4jupyter
-```
-```
-%%cuda
+**%%cuda
 #include <cuda_runtime.h>
 #include <stdio.h>
 
@@ -252,9 +249,10 @@ cudaDeviceReset();
 return (0);
 }
 ```
+
 ## OUTPUT:
-![Screenshot 2025-04-15 103039](https://github.com/user-attachments/assets/e65a0497-f033-4842-8cdd-95e1fc1e97b5)
+![Screenshot 2025-04-11 145711](https://github.com/user-attachments/assets/cd783675-b681-4052-a5a1-ed22ac4f6632)
 
 
 ## RESULT:
-The host took _________ seconds to complete it’s computation, while the GPU outperforms the host and completes the computation in ________ seconds. Therefore, float variables in the GPU will result in the best possible result. Thus, matrix summation using 2D grids and 2D blocks has been performed successfully.
+The host took 0.830914 seconds to complete it’s computation, while the GPU outperforms the host and completes the computation in 0.053880 seconds. Therefore, float variables in the GPU will result in the best possible result. Thus, matrix summation using 2D grids and 2D blocks has been performed successfully.
